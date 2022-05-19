@@ -1,15 +1,19 @@
 .header{
   display: flex;
   justify-content: space-between;
+  background-color: rgb(177, 54, 54);
 }
 
 .header-h1{
   color: white;
-  margin: 10px;
+  margin: 15px;
+  position: fixed;
 }
 
 .header-menu{
-  margin-top: 20px;
+  margin-top: 50px;
+  position: fixed;
+  right: 20px;
 }
 
 .header-menu_list{
